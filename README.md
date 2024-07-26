@@ -1,12 +1,13 @@
 # Celebrity Search with OpenAI
 
 **Description:**
-This project leverages the power of OpenAI's API and Langchain to provide a robust celebrity search functionality. Users can input various search criteria and receive relevant results.
+This project leverages the power of OpenAI's API and Langchain to provide a robust celebrity search functionality. Users can input various search criteria and receive relevant results through an intuitive Streamlit interface.
 
 **Key Features:**
 * Efficient celebrity search based on user input
 * Utilizes OpenAI API for advanced language processing
 * Built with Langchain for streamlined development
+* User-friendly interface powered by Streamlit
 * Customizable results based on user preferences
 
 **Installation:**
@@ -14,10 +15,7 @@ This project leverages the power of OpenAI's API and Langchain to provide a robu
 2. Install dependencies: `pip install -r requirements.txt`
 3. Replace the placeholder OpenAI API key in the code with your own key.
 
-**Usage:**
-* Run the main script (e.g., `main.py`)
-* Input your desired search query
-* Receive search results based on your input
-
-
-
+**Running the App:**
+To start the Streamlit app, run:
+```bash
+streamlit run example1.py
